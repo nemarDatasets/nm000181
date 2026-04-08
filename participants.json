@@ -1,0 +1,11 @@
+{
+  "participant_id": {
+    "Description": "Unique participant identifier"
+  },
+  "age": {
+    "Description": "Age (not available)"
+  },
+  "sex": {
+    "Description": "Sex (not available)"
+  }
+}
