@@ -1,0 +1,1 @@
+b011cc5e-82bc-444f-9845-f3194fe7078d autoenable=true bucket=nemar datacenter=us-east-2 encryption=none fileprefix=nm000181/objects/ host=s3.amazonaws.com name=nemar-s3 port=80 protocol=https publicurl=https://nemar.s3.us-east-2.amazonaws.com signature=v4 storageclass=STANDARD type=S3 timestamp=1775685226s
