@@ -1,17 +1,33 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "NMT: Neurodiagnostic Montage Template Scalp EEG",
+  "description": "The NMT (Neurodiagnostic Montage Template) Scalp EEG Dataset comprises 2,417 clinical EEG recordings acquired using the standard 10-20 electrode montage with 19 EEG channels plus 2 reference electrodes. This dataset includes both normal and abnormal EEG recordings in EDF format with variable sampling rates and durations, designed to support machine learning applications for EEG-based pathology detection and normal/abnormal classification tasks.",
+  "license": "CC BY-SA 4.0",
+  "dataset_type": "raw",
   "authors": {
     "Hussain A. Khan": {}
   },
-  "title": "NMT: Neurodiagnostic Montage Template Scalp EEG",
-  "license": "CC BY-SA 4.0",
-  "dataset_type": "raw",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "clinical neurophysiology"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "pathology detection"
+    },
+    {
+      "term": "10-20 montage"
+    },
+    {
+      "term": "abnormal EEG"
+    }
   ],
-  "resource_type_specific": "EEG Dataset",
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/nm000181",
@@ -24,11 +40,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "10.5281/zenodo.10909103",
-      "identifier_type": "DOI",
-      "relation_type": "IsVersionOf"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "References"
@@ -37,7 +48,17 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.5281/zenodo.10909103",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
   ],
   "sizes": [
     "14.8 GB (2418 files)"
@@ -45,39 +66,10 @@
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".py",
     ".tsv",
     ".yml"
   ],
-  "description": "The NMT (Neurodiagnostic Montage Template) Scalp EEG Dataset comprises 2,417 clinical EEG recordings acquired using the standard 10-20 electrode montage with 19 EEG channels plus 2 reference electrodes. The dataset includes both normal and abnormal recordings in EDF format with variable sampling rates and durations, designed to support EEG-based pathology detection and normal/abnormal classification tasks in clinical neurophysiology research. This dataset was derived from the source data available on Zenodo (doi:10.5281/zenodo.10909103).",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "clinical neurophysiology"
-    },
-    {
-      "term": "pathology detection"
-    },
-    {
-      "term": "10-20 montage"
-    },
-    {
-      "term": "electroencephalography"
-    },
-    {
-      "term": "abnormal EEG"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "clinical EEG"
-    },
-    {
-      "term": "scalp EEG"
-    }
-  ],
-  "source_hash": "bfe04fd3c6024fcb723ff18fc257fc759990a4deb2c138f994c03c12deff54af"
+  "source_hash": "25276e2083790136bdc13b37c87f9e54594abb548c7a35b703d4c05d912dfef8"
 }
