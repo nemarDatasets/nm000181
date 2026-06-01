@@ -1,25 +1,29 @@
 {
-    "Name": "NMT: Neurodiagnostic Montage Template Scalp EEG",
-    "BIDSVersion": "1.9.0",
-    "DatasetType": "raw",
-    "License": "CC BY-SA 4.0",
-    "Authors": [
-        "Hussain A. Khan"
-    ],
-    "HowToAcknowledge": "Please cite the Zenodo record: Khan, H.A. (2022). NMT Scalp EEG Dataset.",
-    "ReferencesAndLinks": [
-        "https://zenodo.org/records/10909103"
-    ],
-    "DatasetDOI": "doi:10.5281/zenodo.10909103",
-    "GeneratedBy": [
-        {
-            "Name": "convert_khan2022.py (EEGDash)",
-            "CodeURL": "https://github.com/bruaristimunha/EEGDash"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "URL": "https://zenodo.org/records/10909103"
-        }
-    ]
+  "Name": "NMT: Neurodiagnostic Montage Template Scalp EEG",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "raw",
+  "License": "CC BY-SA 4.0",
+  "Authors": [
+    "Hussain A. Khan"
+  ],
+  "HowToAcknowledge": "Please cite the Zenodo record: Khan, H.A. (2022). NMT Scalp EEG Dataset.",
+  "ReferencesAndLinks": [
+    "https://zenodo.org/records/10909103"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000181",
+  "GeneratedBy": [
+    {
+      "Name": "convert_khan2022.py (EEGDash)",
+      "CodeURL": "https://github.com/bruaristimunha/EEGDash"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://zenodo.org/records/10909103"
+    },
+    {
+      "DOI": "doi:10.5281/zenodo.10909103"
+    }
+  ],
+  "Version": "1.0.0"
 }
