@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "NMT: Neurodiagnostic Montage Template Scalp EEG",
-  "description": "The NMT (Neurodiagnostic Montage Template) Scalp EEG Dataset comprises 2,417 clinical EEG recordings acquired using the standard 10-20 electrode montage with 19 EEG channels plus 2 reference electrodes. This dataset includes both normal and abnormal EEG recordings in EDF format with variable sampling rates and durations, designed to support machine learning applications for EEG-based pathology detection and normal/abnormal classification tasks.",
+  "description": "A collection of 2,417 clinical scalp EEG recordings labeled as normal or abnormal, acquired with the standard 10-20 montage (19 EEG channels plus 2 reference electrodes). Recordings are stored in EDF format with variable sampling rates and durations. The dataset supports EEG-based pathology detection and normal/abnormal classification.",
   "license": "CC BY-SA 4.0",
   "dataset_type": "raw",
   "authors": {
@@ -13,29 +13,26 @@
       "term": "EEG"
     },
     {
-      "term": "clinical neurophysiology"
-    },
-    {
-      "term": "electroencephalography"
+      "term": "clinical EEG"
     },
     {
       "term": "pathology detection"
     },
     {
+      "term": "normal/abnormal classification"
+    },
+    {
       "term": "10-20 montage"
     },
     {
-      "term": "abnormal EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/nm000181",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000181",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -53,6 +50,11 @@
       "identifier": "10.5281/zenodo.10909103",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000181",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -61,7 +63,7 @@
     "eeg"
   ],
   "sizes": [
-    "14.8 GB (2418 files)"
+    "13.80 GB (2418 files)"
   ],
   "formats": [
     ".edf",
